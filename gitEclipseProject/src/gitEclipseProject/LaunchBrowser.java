@@ -11,8 +11,7 @@ public class LaunchBrowser {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		driver.get("https://www.youtube.com/");
-		System.out.println(driver.getTitle());
+		System.out.println("Title of the browser is " +driver.getTitle());
 		
 			String txt="This is a project to integrate Jenkins with Eclipse and Github";
 			System.out.println(txt);
