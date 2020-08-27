@@ -17,6 +17,7 @@ public class LaunchBrowser {
 		driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys("Itelearn");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys(Keys.ENTER);
+		Thread.sleep(3000);
 			String txt="This is a project to integrate Jenkins with Eclipse and Github";
 			System.out.println(txt);
 			System.out.println("Length of above text is "+txt.length());
