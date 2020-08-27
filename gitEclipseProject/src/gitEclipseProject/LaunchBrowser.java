@@ -10,6 +10,7 @@ public class LaunchBrowser {
 		System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/");
 		driver.get("https://www.youtube.com/");
 		System.out.println(driver.getTitle());
 		
